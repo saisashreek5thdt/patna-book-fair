@@ -1,0 +1,68 @@
+/* Timer Container */
+.timer-container {
+    position: absolute; /* Position relative to the slider */
+    top: 50%; /* Center vertically */
+    left: 20px; /* Position on the left side */
+    transform: translateY(-50%); /* Adjust vertical alignment */
+    display: flex; /* Use Flexbox for layout */
+    flex-direction: column; /* Stack boxes vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content:center;
+    z-index: 10; /* Ensure it appears above other elements */
+    padding-bottom:160px;
+  }
+  
+  /* Individual Timer Box */
+  .timer-box {
+    display: flex; /* Use Flexbox for alignment */
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally */
+    margin-bottom: 15px; /* Space between boxes */
+    background-color: rgba(188, 184, 184, 0.2); /* Semi-transparent background */
+    padding: 10px 15px; /* Add padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    height:100px;
+    width:120px;
+  }
+  
+  /* Time Value (Numbers) */
+  .time-value {
+    font-size: 40px; /* Large font size for numbers */
+    font-weight: bold; /* Bold text */
+    color: #fff; /* White text color */
+    line-height: 1; /* Remove extra spacing */
+  }
+  
+  /* Time Label */
+  .time-label {
+    font-size: 14px; /* Smaller font size for label */
+    font-weight: normal; /* Normal weight */
+    color: #ccc; /* Light gray text color */
+    margin-top: 5px; /* Space between value and label */
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .time-value {
+    animation: pulse 2s infinite;
+  }
+
+  @media (max-width: 768px) {
+    .time-value {
+      font-size: 24px;
+    }
+    .timer-box {
+      padding: 8px 12px;
+    }
+  }
