@@ -23,8 +23,8 @@ export default function Slider() {
                                     <div className="slider-one_buttons">
                                         <a href="register.html" className="theme-btn btn-style-one">
                                             <span className="btn-wrap">
-                                                <span className="text-one">Registration now</span>
-                                                <span className="text-two">Registration now</span>
+                                                <span className="text-one">Register now</span>
+                                                <span className="text-two">Register now</span>
                                             </span>
                                         </a>
                                     </div>
@@ -49,8 +49,8 @@ export default function Slider() {
                                     <div className="slider-one_buttons">
                                         <a href="register.html" className="theme-btn btn-style-one">
                                             <span className="btn-wrap">
-                                                <span className="text-one">Registration now</span>
-                                                <span className="text-two">Registration now</span>
+                                                <span className="text-one">Register now</span>
+                                                <span className="text-two">Register now</span>
                                             </span>
                                         </a>
                                     </div>
@@ -75,8 +75,8 @@ export default function Slider() {
                                     <div className="slider-one_buttons">
                                         <a href="register.html" className="theme-btn btn-style-one">
                                             <span className="btn-wrap">
-                                                <span className="text-one">Registration now</span>
-                                                <span className="text-two">Registration now</span>
+                                                <span className="text-one">Register now</span>
+                                                <span className="text-two">Register now</span>
                                             </span>
                                         </a>
                                     </div>
