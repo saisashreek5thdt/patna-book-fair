@@ -17,7 +17,7 @@ export default function Slider() {
                             {/* <!-- Content Column --> */}
                             <div className="slider-one_content">
                                 <div className="slider-one_content-inner">
-                                    <div className="slider-one_title">North Harond Boston, Canada</div>
+                                    {/* <div className="slider-one_title">North Harond Boston, Canada</div> */}
                                     <div className="slider-one_date"><span>25</span> March <br /> 2024</div>
                                     <h1 className="slider-one_heading">Patna <br /> Book Fair</h1>
                                     <div className="slider-one_buttons">
@@ -43,7 +43,7 @@ export default function Slider() {
                             {/* <!-- Content Column --> */}
                             <div className="slider-one_content">
                                 <div className="slider-one_content-inner">
-                                    <div className="slider-one_title">North Harond Boston, Canada</div>
+                                    {/* <div className="slider-one_title">North Harond Boston, Canada</div> */}
                                     <div className="slider-one_date"><span>25</span> March <br /> 2024</div>
                                     <h1 className="slider-one_heading">Patna <br /> Book Fair</h1>
                                     <div className="slider-one_buttons">
