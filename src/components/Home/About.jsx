@@ -24,36 +24,37 @@ export default function About() {
                         <div className="about-one_content-column col-lg-6 col-md-12 col-sm-12">
                             <div className="about-one_content-inner">
                                 <div className="sec-title title-anim">
-                                    <div className="sec-title_title">About Event</div>
-                                    <h2 className="sec-title_heading">An Evening For Creator & Art Lover Meet Together</h2>
+                                    <div className="sec-title_title">About The Event</div>
+                                    <h2 className="sec-title_heading">Patna Book Fair</h2>
                                 </div>
-                                <div className="about-one_bold-text">Grow, scrape their knees, try new things, to be vulnerable, and to have epic adventures together</div>
-                                <div className="about-one_text">We&apos;re inviting the top creatives in the tech industry from all over the world to come learn, grow, scrape their knees, try new things, to be vulnerable, and to have epic adventures together, this time both</div>
+                                {/* <div className="about-one_bold-text">Grow, scrape their knees, try new things, to be vulnerable, and to have epic adventures together</div> */}
+                                <div className="about-one_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, porro optio. Ducimus quasi aspernatur voluptate sed, enim ea rerum harum placeat ab libero officia laudantium deleniti facere eius reiciendis delectus, voluptatibus quas molestias ipsa aperiam voluptas. Corrupti debitis tenetur autem.</div>
+                                <div className="about-one_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores at illo totam laudantium quidem officia aliquid obcaecati optio similique! Aliquid porro itaque sapiente voluptatibus a atque doloremque assumenda. Hic dolorem nulla numquam iste eligendi magni molestias! Velit sapiente soluta necessitatibus.</div>
                                 <div className="row clearfix">
                                     {/* <!-- About One Block --> */}
                                     <div className="about-one_block col-lg-6 col-md-6 col-sm-12">
                                         <div className="about-one_block-inner">
                                             <span className="about-one_block-icon flaticon-map"></span>
-                                            <strong>Where</strong>
-                                            North Harond, Canada
+                                            <strong>Venue</strong>
+                                            Patna, India
                                         </div>
                                     </div>
                                     {/* <!-- About One Block --> */}
                                     <div className="about-one_block col-lg-6 col-md-6 col-sm-12">
                                         <div className="about-one_block-inner">
                                             <span className="about-one_block-icon flaticon-calendar-2"></span>
-                                            <strong>When</strong>
-                                            March 25 to 29, 2024
+                                            <strong>Date</strong>
+                                            March 1 to 5, 2025
                                         </div>
                                     </div>
                                 </div>
                                 <div className="about-one_button">
-                                    <a href="speaker-detail.html" className="theme-btn btn-style-one">
+                                    {/* <a href="speaker-detail.html" className="theme-btn btn-style-one">
                                         <span className="btn-wrap">
                                             <span className="text-one">Buy Ticket</span>
                                             <span className="text-two">Buy Ticket</span>
                                         </span>
-                                    </a>
+                                    </a> */}
                                 </div>
                             </div>
                         </div>

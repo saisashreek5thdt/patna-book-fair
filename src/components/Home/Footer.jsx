@@ -20,7 +20,7 @@ export default function Footer() {
                                             <a href="https://twitter.com/" className="twitter fa-brands fa-twitter"></a>
                                         </div>
                                     </div>
-                                    <div className="footer-text">We have very good strength in innovative technology and tools with over 35 years of experience. We makes long-term investments goal in global companies in different sectors.</div>
+                                    <div className="footer-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maiores suscipit sunt nobis ratione natus est iusto quia numquam et? Aspernatur perferendis, optio molestiae laudantium nostrum dolores nihil voluptates amet.</div>
                                 </div>
                             </div>
 
@@ -31,7 +31,7 @@ export default function Footer() {
                                         <div className="footer-info-column col-lg-4 col-md-4 col-sm-12">
                                             <span className="footer-info-icon flaticon-placeholder-1"></span>
                                             <h6 className="footer-info_title">ADDRESS</h6>
-                                            <div className="footer-info_text"> 27 New Division Street, New Yark, USA</div>
+                                            <div className="footer-info_text"> Patna, India</div>
                                         </div>
                                         <div className="footer-info-column col-lg-4 col-md-4 col-sm-12">
                                             <span className="footer-info-icon flaticon-message"></span>
@@ -58,7 +58,7 @@ export default function Footer() {
                         <div className="row clearfix">
                             {/* <!-- Column --> */}
                             <div className="column col-lg-6 col-md-12 col-sm-12">
-                                <div className="copyright">&copy;  Copyright ©2024 noor_tech. All Rights Reserved</div>
+                                <div className="copyright">&copy; 2025 5th Dimension Technologies </div>
                             </div>
                             {/* <!-- Column --> */}
                             <div className="column col-lg-6 col-md-12 col-sm-12">

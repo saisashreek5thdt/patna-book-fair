@@ -22,12 +22,12 @@ export default function SpeakerOne(){
 							<img src="assets/images/resource/speaker-1.jpg" alt="" />
 							<div className="speaker-block_one-pattern" style={{ backgroundImage: `url(${pattern5})` }} ></div>
 							<div className="speaker-block_one-social">
-								<span className="speaker-block_one-share fa-solid fa-share-nodes fa-fw"></span>
+								{/* <span className="speaker-block_one-share fa-solid fa-share-nodes fa-fw"></span>
 								<div className="speaker-block_one-social-list">
 									<a href="https://facebook.com/" className="facebook fa-brands fa-facebook-f"></a>
 									<a href="https://youtube.com/" className="youtube fa-brands fa-youtube"></a>
 									<a href="https://twitter.com/" className="twitter fa-brands fa-twitter"></a>
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div className="speaker-block_one-content">
@@ -44,12 +44,12 @@ export default function SpeakerOne(){
 							<img src="assets/images/resource/speaker-2.jpg" alt="" />
 							<div className="speaker-block_one-pattern" style={{ backgroundImage: `url(${pattern5})` }} ></div>
 							<div className="speaker-block_one-social">
-								<span className="speaker-block_one-share fa-solid fa-share-nodes fa-fw"></span>
+								{/* <span className="speaker-block_one-share fa-solid fa-share-nodes fa-fw"></span>
 								<div className="speaker-block_one-social-list">
 									<a href="https://facebook.com/" className="facebook fa-brands fa-facebook-f"></a>
 									<a href="https://youtube.com/" className="youtube fa-brands fa-youtube"></a>
 									<a href="https://twitter.com/" className="twitter fa-brands fa-twitter"></a>
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div className="speaker-block_one-content">
@@ -67,12 +67,12 @@ export default function SpeakerOne(){
 							<img src="assets/images/resource/speaker-3.jpg" alt="" />
 							<div className="speaker-block_one-pattern" style={{ backgroundImage: `url(${pattern5})` }}></div>
 							<div className="speaker-block_one-social">
-								<span className="speaker-block_one-share fa-solid fa-share-nodes fa-fw"></span>
+								{/* <span className="speaker-block_one-share fa-solid fa-share-nodes fa-fw"></span>
 								<div className="speaker-block_one-social-list">
 									<a href="https://facebook.com/" className="facebook fa-brands fa-facebook-f"></a>
 									<a href="https://youtube.com/" className="youtube fa-brands fa-youtube"></a>
 									<a href="https://twitter.com/" className="twitter fa-brands fa-twitter"></a>
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div className="speaker-block_one-content">
@@ -89,12 +89,12 @@ export default function SpeakerOne(){
 							<img src="assets/images/resource/speaker-4.jpg" alt="" />
 							<div className="speaker-block_one-pattern" style={{ backgroundImage: `url(${pattern5})` }}></div>
 							<div className="speaker-block_one-social">
-								<span className="speaker-block_one-share fa-solid fa-share-nodes fa-fw"></span>
+								{/* <span className="speaker-block_one-share fa-solid fa-share-nodes fa-fw"></span>
 								<div className="speaker-block_one-social-list">
 									<a href="https://facebook.com/" className="facebook fa-brands fa-facebook-f"></a>
 									<a href="https://youtube.com/" className="youtube fa-brands fa-youtube"></a>
 									<a href="https://twitter.com/" className="twitter fa-brands fa-twitter"></a>
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div className="speaker-block_one-content">
@@ -111,12 +111,12 @@ export default function SpeakerOne(){
 							<img src="assets/images/resource/speaker-5.jpg" alt="" />
 							<div className="speaker-block_one-pattern" style={{ backgroundImage: `url(${pattern5})` }}></div>
 							<div className="speaker-block_one-social">
-								<span className="speaker-block_one-share fa-solid fa-share-nodes fa-fw"></span>
+								{/* <span className="speaker-block_one-share fa-solid fa-share-nodes fa-fw"></span>
 								<div className="speaker-block_one-social-list">
 									<a href="https://facebook.com/" className="facebook fa-brands fa-facebook-f"></a>
 									<a href="https://youtube.com/" className="youtube fa-brands fa-youtube"></a>
 									<a href="https://twitter.com/" className="twitter fa-brands fa-twitter"></a>
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div className="speaker-block_one-content">
@@ -133,12 +133,12 @@ export default function SpeakerOne(){
 							<img src="assets/images/resource/speaker-6.jpg" alt="" />
 							<div className="speaker-block_one-pattern" style={{ backgroundImage: `url(${pattern5})` }}></div>
 							<div className="speaker-block_one-social">
-								<span className="speaker-block_one-share fa-solid fa-share-nodes fa-fw"></span>
+								{/* <span className="speaker-block_one-share fa-solid fa-share-nodes fa-fw"></span>
 								<div className="speaker-block_one-social-list">
 									<a href="https://facebook.com/" className="facebook fa-brands fa-facebook-f"></a>
 									<a href="https://youtube.com/" className="youtube fa-brands fa-youtube"></a>
 									<a href="https://twitter.com/" className="twitter fa-brands fa-twitter"></a>
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div className="speaker-block_one-content">
@@ -155,12 +155,12 @@ export default function SpeakerOne(){
 							<img src="assets/images/resource/speaker-7.jpg" alt="" />
 							<div className="speaker-block_one-pattern" style={{ backgroundImage: `url(${pattern5})` }}></div>
 							<div className="speaker-block_one-social">
-								<span className="speaker-block_one-share fa-solid fa-share-nodes fa-fw"></span>
+								{/* <span className="speaker-block_one-share fa-solid fa-share-nodes fa-fw"></span>
 								<div className="speaker-block_one-social-list">
 									<a href="https://facebook.com/" className="facebook fa-brands fa-facebook-f"></a>
 									<a href="https://youtube.com/" className="youtube fa-brands fa-youtube"></a>
 									<a href="https://twitter.com/" className="twitter fa-brands fa-twitter"></a>
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div className="speaker-block_one-content">
@@ -177,12 +177,12 @@ export default function SpeakerOne(){
 							<img src="assets/images/resource/speaker-8.jpg" alt="" />
 							<div className="speaker-block_one-pattern" style={{ backgroundImage: `url(${pattern5})` }}></div>
 							<div className="speaker-block_one-social">
-								<span className="speaker-block_one-share fa-solid fa-share-nodes fa-fw"></span>
+								{/* <span className="speaker-block_one-share fa-solid fa-share-nodes fa-fw"></span>
 								<div className="speaker-block_one-social-list">
 									<a href="https://facebook.com/" className="facebook fa-brands fa-facebook-f"></a>
 									<a href="https://youtube.com/" className="youtube fa-brands fa-youtube"></a>
 									<a href="https://twitter.com/" className="twitter fa-brands fa-twitter"></a>
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div className="speaker-block_one-content">

@@ -14,8 +14,8 @@ export default function VideoOne() {
                 <div className="video-one_pattern-four"  style={{ backgroundImage: `url(${Icon1})` }}></div>
                 <div className="auto-container">
                     <div className="sec-title title-anim light centered">
-                        <div className="sec-title_title">Conference Ticket Price</div>
-                        <h2 className="sec-title_heading">We&apos;re Always in The Lead.	<br /> From The Business Conference!</h2>
+                        <div className="sec-title_title">Lorem, ipsum dolor.</div>
+                        <h2 className="sec-title_heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto?</h2>
                         <a href="https://www.youtube.com/watch?v=YS3PwmOQ1Fc" className="lightbox-video video-one_play"><span className="fa fa-play"><i className="ripple"></i></span></a>
                     </div>
                 </div>

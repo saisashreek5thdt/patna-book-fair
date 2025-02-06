@@ -15,8 +15,8 @@ export default function LeadershipOne(){
 		<div className="leadership-one_icon-five" data-parallax='{"y" : 100}' style={{ backgroundImage: `url(${pattern10})` }}></div>
 		<div className="auto-container">
 			<div className="sec-title title-anim centered">
-				<div className="sec-title_title">Thought Leadership</div>
-				<h2 className="sec-title_heading">Join The World&apos;s Leading Companies <br/> at Technology Conference</h2>
+				<div className="sec-title_title">Lorem, ipsum.</div>
+				<h2 className="sec-title_heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quia.</h2>
 			</div>
 			{/* <!-- Leadership Info Tabs --> */}
 			<div className="leadership-info-tabs">
@@ -47,9 +47,9 @@ export default function LeadershipOne(){
 												<div className="leadership-one_block-icon flaticon-voice"></div>
 											</div>
 											<div className="leadership-one_block-time">9:00 am   --   11:00 am</div>
-											<div className="leadership-one_block-name">Paul Wilson</div>
-											<h3 className="leadership-one_block-title"><a href="speaker-detail.html">Registration For Opening Workshop</a></h3>
-											<div className="leadership-one_block-text">We&apos;re inviting the top creatives in the tech industry from all over the world to come learn, grow, scrape their knees, try new things, to be vulnerable, and to have epic adventures</div>
+											<div className="leadership-one_block-name">Lorem, ipsum.</div>
+											<h3 className="leadership-one_block-title"><a href="speaker-detail.html">Lorem ipsum dolor sit amet.</a></h3>
+											<div className="leadership-one_block-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iste similique aspernatur nam porro laboriosam inventore doloribus consequuntur corporis illo.</div>
 										</div>
 									</div>
 								</div>
@@ -63,9 +63,9 @@ export default function LeadershipOne(){
 												<div className="leadership-one_block-icon flaticon-voice"></div>
 											</div>
 											<div className="leadership-one_block-time">9:00 am   --   11:00 am</div>
-											<div className="leadership-one_block-name">Ashli Scroggy</div>
-											<h3 className="leadership-one_block-title"><a href="speaker-detail.html">Modern Marketing Summit Sydney 2024</a></h3>
-											<div className="leadership-one_block-text">We&apos;re inviting the top creatives in the tech industry from all over the world to come learn, grow, scrape their knees, try new things, to be vulnerable, and to have epic adventures</div>
+											<div className="leadership-one_block-name">Lorem, ipsum.</div>
+											<h3 className="leadership-one_block-title"><a href="speaker-detail.html">Lorem ipsum dolor sit amet.</a></h3>
+											<div className="leadership-one_block-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iste similique aspernatur nam porro laboriosam inventore doloribus consequuntur corporis illo.</div>
 										</div>
 									</div>
 								</div>
@@ -79,9 +79,9 @@ export default function LeadershipOne(){
 												<div className="leadership-one_block-icon flaticon-voice"></div>
 											</div>
 											<div className="leadership-one_block-time">9:00 am   --   11:00 am</div>
-											<div className="leadership-one_block-name">Robert Gates</div>
-											<h3 className="leadership-one_block-title"><a href="speaker-detail.html">Introduction About Speakers</a></h3>
-											<div className="leadership-one_block-text">We&apos;re inviting the top creatives in the tech industry from all over the world to come learn, grow, scrape their knees, try new things, to be vulnerable, and to have epic adventures</div>
+											<div className="leadership-one_block-name">Lorem, ipsum.</div>
+											<h3 className="leadership-one_block-title"><a href="speaker-detail.html">Lorem ipsum dolor sit amet.</a></h3>
+											<div className="leadership-one_block-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iste similique aspernatur nam porro laboriosam inventore doloribus consequuntur corporis illo.</div>
 										</div>
 									</div>
 								</div>

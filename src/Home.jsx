@@ -8,10 +8,10 @@ import {
   FeatureOne,
   LeadershipOne,
   GalleryOne,
-  PriceOne,
+  // PriceOne,
   VideoOne,
   ClientOne,
-  NewsOne,
+  // NewsOne,
   SubscribeOne,
   Footer,
   SearchPopup
@@ -50,7 +50,7 @@ export default function Home() {
           <GalleryOne />
           {/*  GalleryOne End*/}
           {/*  PriceOne Start*/}
-          <PriceOne />
+          {/* <PriceOne /> */}
           {/*  PriceOne End*/}
           {/*  VideoOne Start*/}
           <VideoOne />
@@ -59,7 +59,7 @@ export default function Home() {
           <ClientOne />
           {/*  clientOne End*/}
           {/*  NewsOne Start*/}
-          <NewsOne />
+          {/* <NewsOne /> */}
           {/*  NewsOne End*/}
           {/*  SubscribeOne Start*/}
           <SubscribeOne />
