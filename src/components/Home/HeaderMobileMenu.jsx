@@ -10,6 +10,7 @@ export default function HeaderMobileMenu(){
 				<div className="nav-logo"><a href="index.html"><img src="assets/images/logo-small.png" alt="" title=""/></a></div>
 				<div className="menu-outer">
                 {/* <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--> */}
+                
                 </div>
 			</nav>
 		</div>

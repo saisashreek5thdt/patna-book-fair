@@ -12,9 +12,10 @@ import {
   VideoOne,
   ClientOne,
   // NewsOne,
-  SubscribeOne,
+  // SubscribeOne,
   Footer,
-  SearchPopup
+  SearchPopup,
+  FAQsection
 } from "./components";
 
 export default function Home() {
@@ -52,6 +53,7 @@ export default function Home() {
           {/*  PriceOne Start*/}
           {/* <PriceOne /> */}
           {/*  PriceOne End*/}
+          <FAQsection/>
           {/*  VideoOne Start*/}
           <VideoOne />
           {/*  VideoOne End*/}
@@ -62,7 +64,7 @@ export default function Home() {
           {/* <NewsOne /> */}
           {/*  NewsOne End*/}
           {/*  SubscribeOne Start*/}
-          <SubscribeOne />
+          {/* <SubscribeOne /> */}
           {/*  SubscribeOne End*/}
           <Footer />
 

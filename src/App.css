@@ -1,4 +1,14 @@
+.navbar-text{
+    font-size:20px;
+}
+
+.heading{
+   margin-bottom:20px;
+   margin-left:20px;
+}
+
 .language-icon img{
+    margin-left:100px;
     width:35px;
     height:35px;
   }

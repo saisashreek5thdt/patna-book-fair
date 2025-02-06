@@ -27,9 +27,10 @@ export default function HeaderSticky() {
 
                             {/* <!-- Search Btn --> */}
                             {/* <div className="search-box-btn search-box-outer"><span className="icon fa fa-search"></span></div> */}
-                            <div className="language-icon" >
+                            <div className="language-icon " >
                                 <img src={language} alt="" />
                             </div>
+                           
                
                             {/* <!-- Nav Btn --> */}
                             {/* <div className="nav-btn navSidebar-button fa-regular fa-cart-shopping fa-fw"></div>

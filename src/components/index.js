@@ -14,3 +14,4 @@ export { default as NewsOne} from "./Home/NewsOne";
 export { default as SubscribeOne } from "./Home/SubscribeOne";
 export { default as Footer } from "./Home/Footer";
 export { default as SearchPopup } from "./Home/SearchPopup";
+export { default as FAQsection } from "./Home/FAQsection";
