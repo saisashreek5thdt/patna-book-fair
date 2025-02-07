@@ -1,16 +1,10 @@
-.navbar-text{
-    font-size:20px;
-}
 
-.heading{
-   margin-bottom:20px;
-   margin-left:20px;
-}
 
 .language-icon img{
     margin-left:100px;
-    width:35px;
-    height:35px;
+    width:30px;
+    height:30px;
+    margin-top:5px;
   }
     
 
@@ -179,3 +173,50 @@
     padding: 8px 12px;
   }
 }
+
+
+/* Container for the scrolling feature */
+.feature-one .row {
+  display: flex;
+  overflow: hidden; /* Hide overflowing cards */
+  position: relative;
+  margin-right:20px;
+}
+
+/* Wrapper for the cards */
+.feature-one .row .scroll-wrapper {
+  display: flex;
+  animation: scroll-left 20s linear infinite; /* Adjust the duration as needed */
+}
+
+/* Pause animation on hover */
+.feature-one .row .scroll-wrapper:hover {
+  animation-play-state: paused; /* Pause the animation when hovering */
+}
+
+/* Individual card styling */
+.feature-one .feature-block_one {
+  flex: 0 0 33.33%; /* Each card takes up 1/3rd of the container width */
+  max-width: 33.33%; /* Ensure cards don't exceed their width */
+  box-sizing: border-box; /* Include padding and borders in width calculation */
+  margin: 0; /* Remove any gaps between cards */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for cards */
+.feature-one .feature-block_one:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+  cursor: pointer; /* Indicate it's clickable */
+}
+
+/* Keyframes for the scrolling animation */
+@keyframes scroll-left {
+  0% {
+      transform: translateX(0); /* Start with the first set of cards */
+  }
+  100% {
+      transform: translateX(-100%); /* Move to the next set of cards */
+  }
+}
+
+

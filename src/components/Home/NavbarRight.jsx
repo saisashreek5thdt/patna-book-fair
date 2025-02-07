@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+const language = 'assets/images/language_icon.svg'
 const NavbarRight = () => {
     return (
         <>
-            <div className="navbar-collapse collapse clearfix navbar-text" id="navbarSupportedContent">
+            <div className="navbar-collapse collapse clearfix " id="navbarSupportedContent">
                 <ul className="navigation clearfix">
                     
                     <li ><Link to="">About</Link>
@@ -24,14 +25,14 @@ const NavbarRight = () => {
                     </li>
                     <li ><Link to="">FAQ</Link>
                     </li>
-                    {/* <li className="dropdown language-icon">
-                    <Link to=""><img src={language} alt="" /></Link>
+                    <li className="dropdown language-icon">
+                    <img src={language} alt="" />
                           <ul>
                             <li><a href="">English</a></li>
                             <li><a href="">Hindi</a></li>
                             <li><a href="">Bihari</a></li>
                           </ul>
-                    </li> */}
+                    </li>
                 </ul>
             </div>
         </>

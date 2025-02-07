@@ -3,6 +3,29 @@ const pattern8 = "assets/images/background/pattern-8.png";
 const pattern9 = "assets/images/background/pattern-9.png";
 
 export default function FeatureOne() {
+    const cards = [
+        {
+            icon: "flaticon-policy",
+            title: "Best Certified Speaker",
+            link: "event-detail.html",
+        },
+        {
+            icon: "flaticon-digital-learning",
+            title: "Brand Digital Ideas",
+            link: "event-detail.html",
+        },
+        {
+            icon: "flaticon-conversation-1",
+            title: "Communicate People",
+            link: "event-detail.html",
+        },
+        {
+            icon: "flaticon-inspiration",
+            title: "Well Inspiring Keynotes",
+            link: "event-detail.html",
+        },
+    ];
+
     return (
         <>
             <section className="feature-one">
@@ -14,44 +37,30 @@ export default function FeatureOne() {
                         <div className="sec-title_title">Our Features</div>
                         <h2 className="sec-title_heading">Features For Client</h2>
                     </div>
+                    {/* Scroll wrapper for auto-scroll */}
                     <div className="row clearfix">
-
-                        {/* <!-- Feature Block One --> */}
-                        <div className="feature-block_one col-lg-3 col-md-6 col-sm-12">
-                            <div className="feature-block_one-inner wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div className="feature-block_one-icon flaticon-policy"></div>
-                                <h4 className="feature-block_one-title"><a href="event-detail.html">Best Certified Speaker</a></h4>
-                                <a className="feature-block_one-more" href="event-detail.html">Read More</a>
-                            </div>
+                        <div className="scroll-wrapper">
+                            {/* First set of cards */}
+                            {cards.map((card, index) => (
+                                <div key={index} className="feature-block_one col-lg-3 col-md-6 col-sm-12">
+                                    <div className="feature-block_one-inner wow fadeInUp" data-wow-delay={`${index * 150}ms`} data-wow-duration="1500ms">
+                                        <div className={`feature-block_one-icon ${card.icon}`}></div>
+                                        <h4 className="feature-block_one-title"><a href={card.link}>{card.title}</a></h4>
+                                        <a className="feature-block_one-more" href={card.link}>Read More</a>
+                                    </div>
+                                </div>
+                            ))}
+                            {/* Duplicate set of cards for seamless looping */}
+                            {cards.map((card, index) => (
+                                <div key={index + cards.length} className="feature-block_one col-lg-3 col-md-6 col-sm-12">
+                                    <div className="feature-block_one-inner wow fadeInUp" data-wow-delay={`${index * 150}ms`} data-wow-duration="1500ms">
+                                        <div className={`feature-block_one-icon ${card.icon}`}></div>
+                                        <h4 className="feature-block_one-title"><a href={card.link}>{card.title}</a></h4>
+                                        <a className="feature-block_one-more" href={card.link}>Read More</a>
+                                    </div>
+                                </div>
+                            ))}
                         </div>
-
-                        {/* <!-- Feature Block One --> */}
-                        <div className="feature-block_one col-lg-3 col-md-6 col-sm-12">
-                            <div className="feature-block_one-inner wow fadeInUp" data-wow-delay="150ms" data-wow-duration="1500ms">
-                                <div className="feature-block_one-icon flaticon-digital-learning"></div>
-                                <h4 className="feature-block_one-title"><a href="event-detail.html">Brand Digital <br/> Ideas</a></h4>
-                                <a className="feature-block_one-more" href="event-detail.html">Read More</a>
-                            </div>
-                        </div>
-
-                        {/* <!-- Feature Block One --> */}
-                        <div className="feature-block_one col-lg-3 col-md-6 col-sm-12">
-                            <div className="feature-block_one-inner wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                <div className="feature-block_one-icon flaticon-conversation-1"></div>
-                                <h4 className="feature-block_one-title"><a href="event-detail.html">Communicate People</a></h4>
-                                <a className="feature-block_one-more" href="event-detail.html">Read More</a>
-                            </div>
-                        </div>
-
-                        {/* <!-- Feature Block One --> */}
-                        <div className="feature-block_one col-lg-3 col-md-6 col-sm-12">
-                            <div className="feature-block_one-inner wow fadeInUp" data-wow-delay="450ms" data-wow-duration="1500ms">
-                                <div className="feature-block_one-icon flaticon-inspiration"></div>
-                                <h4 className="feature-block_one-title"><a href="event-detail.html">Well Inspiring Keynotes</a></h4>
-                                <a className="feature-block_one-more" href="event-detail.html">Read More</a>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </section>

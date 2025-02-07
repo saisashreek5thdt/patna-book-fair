@@ -183,6 +183,7 @@
 }
 
 .slider-one_heading{
+	text-transform:uppercase;
 	opacity: 0;
 	transform: scaleY(0);
 	transform-origin: top;

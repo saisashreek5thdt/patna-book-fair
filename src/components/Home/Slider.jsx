@@ -46,7 +46,7 @@ export default function Slider() {
                                     {/* <div className="slider-one_title">North Harond Boston, Canada</div> */}
                                     <div className="slider-one_title">A Journey Through The Books</div>
                                     <div className="slider-one_date"><span>25</span> March <br /> 2024</div>
-                                    <h1 className="slider-one_heading">Patna <br /> Book Fair</h1>
+                                    <h1 className="slider-one_heading" style={{textTransform:"uppercase"}}>Patna <br /> Book Fair</h1>
                                     <div className="slider-one_buttons">
                                         <a href="register.html" className="theme-btn btn-style-one">
                                             <span className="btn-wrap">

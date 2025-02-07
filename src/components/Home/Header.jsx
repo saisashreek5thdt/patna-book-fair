@@ -1,7 +1,7 @@
 import HeaderMobileMenu from "./HeaderMobileMenu";
 import HeaderSticky from "./HeaderSticky";
 import NavbarRight from "./NavbarRight";
-const language = 'assets/images/language_icon.svg'
+// const language = 'assets/images/language_icon.svg'
 export default function Header() {
     return (
         <>
@@ -37,9 +37,9 @@ export default function Header() {
 
                                 {/* <!-- Search Btn --> */}
                                 {/* <div className="search-box-btn search-box-outer"><span className="icon fa fa-search"></span></div> */}
-                                <div className="language-icon" >
+                                {/* <div className="language-icon" >
                                 <img src={language} alt="" />
-                                 </div>
+                                 </div> */}
                                 {/* <!-- Nav Btn --> */}
                                 {/* <div className="nav-btn navSidebar-button fa-regular fa-cart-shopping fa-fw"></div>
 

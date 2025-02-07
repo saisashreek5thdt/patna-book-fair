@@ -1,5 +1,5 @@
 
-const language = 'assets/images/language_icon.svg'
+// const language = 'assets/images/language_icon.svg'
 export default function HeaderSticky() {
     return (
         <>
@@ -27,9 +27,9 @@ export default function HeaderSticky() {
 
                             {/* <!-- Search Btn --> */}
                             {/* <div className="search-box-btn search-box-outer"><span className="icon fa fa-search"></span></div> */}
-                            <div className="language-icon " >
+                            {/* <div className="language-icon " >
                                 <img src={language} alt="" />
-                            </div>
+                            </div> */}
                            
                
                             {/* <!-- Nav Btn --> */}
