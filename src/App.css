@@ -1,6 +1,6 @@
 
 
-.language-icon img{
+.language-icon span{
     margin-left:100px;
     width:30px;
     height:30px;
@@ -8,7 +8,7 @@
   }
     
 
-  .language-icon img{
+  .language-icon span{
     -webkit-animation: rotate-center 1.8s ease-in-out infinite both;
             animation: rotate-center 1.8s ease-in-out infinite both;
   }

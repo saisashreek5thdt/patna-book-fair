@@ -30,8 +30,7 @@ export default function HeaderSticky() {
                             {/* <div className="language-icon " >
                                 <img src={language} alt="" />
                             </div> */}
-                           
-               
+                            
                             {/* <!-- Nav Btn --> */}
                             {/* <div className="nav-btn navSidebar-button fa-regular fa-cart-shopping fa-fw"></div>
 

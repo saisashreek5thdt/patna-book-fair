@@ -6,22 +6,22 @@ export default function FeatureOne() {
     const cards = [
         {
             icon: "flaticon-policy",
-            title: "Best Certified Speaker",
+            title: "Speaker",
             link: "event-detail.html",
         },
         {
             icon: "flaticon-digital-learning",
-            title: "Brand Digital Ideas",
+            title: "Author",
             link: "event-detail.html",
         },
         {
             icon: "flaticon-conversation-1",
-            title: "Communicate People",
+            title: "Sponsor's",
             link: "event-detail.html",
         },
         {
             icon: "flaticon-inspiration",
-            title: "Well Inspiring Keynotes",
+            title: "Vendor",
             link: "event-detail.html",
         },
     ];

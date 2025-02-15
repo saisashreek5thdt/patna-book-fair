@@ -48,7 +48,7 @@ export default function Home() {
           <LeadershipOne />
           {/*  LeadershipOne End*/}
           {/*  GalleryOne Start*/}
-          <GalleryOne />
+          <GalleryOne/>
           {/*  GalleryOne End*/}
           {/*  PriceOne Start*/}
           {/* <PriceOne /> */}

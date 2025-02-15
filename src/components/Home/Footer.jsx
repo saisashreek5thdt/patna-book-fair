@@ -56,13 +56,13 @@ export default function Footer() {
                     <div className="footer-info-column col-lg-4 col-md-4 col-sm-12">
                       <span className="footer-info-icon flaticon-placeholder-1"></span>
                       <h6 className="footer-info_title">ADDRESS</h6>
-                      <div className="footer-info_text"> Patna, India</div>
+                      <div className="footer-info_text"> Mumbai, India</div>
                     </div>
                     <div className="footer-info-column col-lg-4 col-md-4 col-sm-12">
                       <span className="footer-info-icon flaticon-message"></span>
                       <h6 className="footer-info_title">MAIL TO US</h6>
                       <div className="footer-info_text">
-                        infoPatna@gmail.com <br /> (+91)99999 99999
+                        infoMumbai@gmail.com <br /> (+91)99999 99999
                       </div>
                     </div>
                     <div className="footer-info-column col-lg-4 col-md-4 col-sm-12">

@@ -1,7 +1,62 @@
+import { useEffect, useState } from 'react';
 const imageUrl1 = 'assets/images/main-slider/image-1.jpg';
 const pattern1 = 'assets/images/main-slider/pattern-1.png';
 const pattern2 = 'assets/images/main-slider/pattern-2.png';
 export default function Slider() {
+    const [countdown, setCountdown] = useState({
+        days: '0',
+        hours: '00',
+        minutes: '00',
+        seconds: '00',
+    });
+
+    useEffect(() => {
+        // Set the event date (April 4, 2025)
+        const eventDate = new Date('2025-04-04T00:00:00').getTime();
+
+        // Function to update the countdown
+        const updateCountdown = () => {
+            const now = new Date().getTime();
+            const timeDifference = eventDate - now;
+
+            if (timeDifference <= 0) {
+                // If the event date has passed, stop the countdown
+                setCountdown({
+                    days: '0',
+                    hours: '00',
+                    minutes: '00',
+                    seconds: '00',
+                });
+                clearInterval(interval);
+                return;
+            }
+
+            // Calculate days, hours, minutes, and seconds
+            const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+            // Update the state with the calculated values
+            setCountdown({
+                days: String(days),
+                hours: String(hours).padStart(2, '0'),
+                minutes: String(minutes).padStart(2, '0'),
+                seconds: String(seconds).padStart(2, '0'),
+            });
+        };
+
+        // Initial call to display the countdown immediately
+        updateCountdown();
+
+        // Update the countdown every second
+        const interval = setInterval(updateCountdown, 1000);
+
+        // Cleanup function to clear the interval when the component unmounts
+        return () => clearInterval(interval);
+    }, []);
+
+
     return (
         <>
             {/* <!-- Slider One --> */}
@@ -18,8 +73,9 @@ export default function Slider() {
                             <div className="slider-one_content">
                                 <div className="slider-one_content-inner">
                                     <div className="slider-one_title">A Journey Through The Books</div>
-                                    <div className="slider-one_date"><span>25</span> March <br /> 2024</div>
-                                    <h1 className="slider-one_heading">Patna <br /> Book Fair</h1>
+                                    <div className="slider-one_date"><span>04</span> April 2025 <br />AZAD MAIDAN, MUMBAI, INDIA</div>
+                                    {/* <h1 className="slider-one_heading">Patna <br/> Book Fair</h1> */}
+                                    <h1 className="slider-one_heading"> CELEBRATING THE <br/> POWER OF WORDS</h1>
                                     <div className="slider-one_buttons">
                                         <a href="register.html" className="theme-btn btn-style-one">
                                             <span className="btn-wrap">
@@ -43,10 +99,10 @@ export default function Slider() {
                             {/* <!-- Content Column --> */}
                             <div className="slider-one_content">
                                 <div className="slider-one_content-inner">
-                                    {/* <div className="slider-one_title">North Harond Boston, Canada</div> */}
                                     <div className="slider-one_title">A Journey Through The Books</div>
-                                    <div className="slider-one_date"><span>25</span> March <br /> 2024</div>
-                                    <h1 className="slider-one_heading" style={{textTransform:"uppercase"}}>Patna <br /> Book Fair</h1>
+                                    <div className="slider-one_date"><span>05</span> April 2025 <br />AZAD MAIDAN, MUMBAI, INDIA</div>
+                                    {/* <h1 className="slider-one_heading">Patna <br/> Book Fair</h1> */}
+                                    <h1 className="slider-one_heading"> CELEBRATING THE <br/> POWER OF WORDS</h1>
                                     <div className="slider-one_buttons">
                                         <a href="register.html" className="theme-btn btn-style-one">
                                             <span className="btn-wrap">
@@ -70,10 +126,10 @@ export default function Slider() {
                             {/* <!-- Content Column --> */}
                             <div className="slider-one_content">
                                 <div className="slider-one_content-inner">
-                                    {/* <div className="slider-one_title">Patna Book Fair, India</div> */}
                                     <div className="slider-one_title">A Journey Through The Books</div>
-                                    <div className="slider-one_date"><span>25</span> March <br /> 2024</div>
-                                    <h1 className="slider-one_heading">Patna <br /> Book Fair</h1>
+                                    <div className="slider-one_date"><span>06</span> April 2025 <br />AZAD MAIDAN, MUMBAI, INDIA</div>
+                                    {/* <h1 className="slider-one_heading">Patna <br/> Book Fair</h1> */}
+                                    <h1 className="slider-one_heading"> CELEBRATING THE <br/> POWER OF WORDS</h1>
                                     <div className="slider-one_buttons">
                                         <a href="register.html" className="theme-btn btn-style-one">
                                             <span className="btn-wrap">
@@ -89,24 +145,26 @@ export default function Slider() {
                     </div>
                     {/* <!-- End Slide 03 --> */}
 
+                    
+
                 </div>
 
                 {/* Timer Divs */}
                 <div className="timer-container">
                     <div className="timer-box">
-                        <span id="days" className="time-value">119</span>
+                        <span id="days" className="time-value">{countdown.days}</span>
                         <div className="time-label">Days</div>
                     </div>
                     <div className="timer-box">
-                        <span id="hours" className="time-value">22</span>
+                        <span id="hours" className="time-value">{countdown.hours}</span>
                         <div className="time-label">Hours</div>
                     </div>
                     <div className="timer-box">
-                        <span id="minutes" className="time-value">18</span>
+                        <span id="minutes" className="time-value">{countdown.minutes}</span>
                         <div className="time-label">Minutes</div>
                     </div>
                     <div className="timer-box">
-                        <span id="seconds" className="time-value">44</span>
+                        <span id="seconds" className="time-value">{countdown.seconds}</span>
                         <div className="time-label">Seconds</div>
                     </div>
                 </div>

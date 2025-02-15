@@ -24,7 +24,8 @@ export default function App() {
       "assets/js/nav-tool.js",
       "assets/js/jquery-ui.js",
       "assets/js/color-settings.js",
-      "assets/js/script.js"
+      "assets/js/script.js",
+      // "assets/js/count.js"
     ];
 
     // Function to dynamically load a script

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-const language = 'assets/images/language_icon.svg'
+// const language = 'assets/images/language_icon.svg'
+// import { LiaLanguageSolid } from "react-icons/lia";
 const NavbarRight = () => {
     return (
         <>
@@ -9,12 +10,8 @@ const NavbarRight = () => {
                     <li ><Link to="">About</Link>
                         
                     </li>
-                    <li className="dropdown"><Link to="">Schedule</Link>
-                        <ul>
-                            <li><a href="event.html">Events</a></li>
-                            <li><a href="event-detail.html">Events Detail</a></li>
-                            <li><a href="register.html">Account</a></li>
-                        </ul>
+                    <li ><Link to="">Schedule</Link>
+                        
                     </li>
                     <li ><Link to="">Speakers</Link>
                     </li>
@@ -26,11 +23,15 @@ const NavbarRight = () => {
                     <li ><Link to="">FAQ</Link>
                     </li>
                     <li className="dropdown language-icon">
-                    <img src={language} alt="" />
+                    {/* <img src={language} alt="" /> */}
+                    <span>
+                    <i className="fa fa-language fa-2xl" style={{width:"30px",height:"30px", color:"gold"}}></i>
+                    {/* <LiaLanguageSolid style={{width:"30px",height:"30px", color:"white"}}/> */}
+                     </span>
                           <ul>
                             <li><a href="">English</a></li>
                             <li><a href="">Hindi</a></li>
-                            <li><a href="">Bihari</a></li>
+                            <li><a href="">Marathi</a></li>
                           </ul>
                     </li>
                 </ul>
